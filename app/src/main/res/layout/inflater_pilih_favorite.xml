@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Pilih Penyimpanan"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/button2"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="Lokal"
+                android:textColor="#fff"
+                android:background="@drawable/bulatmenu"
+                android:drawableTop="@drawable/ic_baseline_save_24"
+                android:text="Lokal" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_margin="5dp"
+                android:textColor="#fff"
+                android:background="@drawable/bulatmenu"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:drawableTop="@drawable/ic_baseline_cloud_24"
+                android:onClick="Cloud"
+                android:text="Cloud" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/button2"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="manga"
+                android:textColor="#fff"
+                android:background="@drawable/bulatmenu"
+                android:drawableTop="@drawable/ic_baseline_menu_book_24"
+                android:text="Manga" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_margin="5dp"
+                android:textColor="#fff"
+                android:background="@drawable/bulatmenu"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:drawableTop="@drawable/ic_baseline_arrow_circle_down_24"
+                android:onClick="idSplash"
+                android:text="C.Splash" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_akun"
+                android:layout_margin="5dp"
+                android:textColor="#fff"
+                android:background="@drawable/bulatmenu"
+                android:layout_width="100dp"
+                android:drawableTop="@drawable/ic_baseline_account_circle_24"
+                android:layout_height="100dp"
+                android:onClick="Akun"
+                android:text="Akun" />
+
+            <Button
+                android:id="@+id/favorited"
+                android:layout_margin="5dp"
+                android:textColor="#fff"
+                android:background="@drawable/bulatmenu"
+                android:layout_width="100dp"
+                android:drawableTop="@drawable/ic_baseline_favorite_24"
+                android:layout_height="100dp"
+                android:onClick="Favorite"
+                android:text="Favorite" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/action_settings"
+                android:layout_margin="5dp"
+                android:textColor="#fff"
+                android:background="@drawable/bulatmenu"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:drawableTop="@drawable/ic_baseline_settings_24"
+                android:onClick="Pengaturan"
+                android:text="Setting" />
+
+            <Button
+                android:id="@+id/aboutus"
+                android:layout_margin="5dp"
+                android:textColor="#fff"
+                android:background="@drawable/bulatmenu"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:drawableTop="@drawable/ic_baseline_info_24"
+                android:onClick="Aboutus"
+                android:text="About US" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

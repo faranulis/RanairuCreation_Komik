@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "89251172577",
+    "firebase_url": "https://ranairu-creation-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ranairu-creation",
+    "storage_bucket": "ranairu-creation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89251172577:android:4e5299b336c8f97d7027a0",
+        "android_client_info": {
+          "package_name": "com.ranairu.creation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89251172577-01ll8c18u3nsii5bvs83m0u4js0ahmp0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF25Be37OwIBmPshrVWjbGjj6bjXhs7N0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89251172577-01ll8c18u3nsii5bvs83m0u4js0ahmp0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
